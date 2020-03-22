@@ -1,6 +1,6 @@
 # Multi-Module Quarkus Reproducer for java.lang.IllegalArgumentException: Not an entity in test against shared model 
 
-This example is not functional and is meant to reproduce Issue https://github.com/quarkusio/quarkus/issues/7365
+This example is not functional and is meant to reproduce Issue https://github.com/quarkusio/quarkus/issues/8061
 
 #### Issue
 
