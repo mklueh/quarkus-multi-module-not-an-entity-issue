@@ -6,7 +6,7 @@ This example is not functional and is meant to reproduce Issue https://github.co
 
 running the ApplicationTest under application/src/test/java/com.demo.application leads to
 
-`Not an entity [class com.demo.common.one.model.SharedModelOne]
+```Not an entity [class com.demo.common.one.model.SharedModelOne]
  java.lang.IllegalArgumentException: Not an entity [class com.demo.common.one.model.SharedModelOne]
  	at org.hibernate.internal.SessionImpl.contains(SessionImpl.java:1999)
  	at io.quarkus.hibernate.orm.runtime.entitymanager.TransactionScopedEntityManager.contains(TransactionScopedEntityManager.java:286)
@@ -122,8 +122,7 @@ running the ApplicationTest under application/src/test/java/com.demo.application
  	at org.hibernate.metamodel.internal.MetamodelImpl.entityPersister(MetamodelImpl.java:704)
  	at org.hibernate.internal.SessionImpl.contains(SessionImpl.java:1996)
  	... 109 more
- 
-` 
+```
 
 
 
