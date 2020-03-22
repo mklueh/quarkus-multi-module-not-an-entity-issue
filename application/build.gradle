@@ -1,0 +1,12 @@
+plugins {
+    id 'io.quarkus'
+}
+
+dependencies {
+    implementation project(":common-base")
+    implementation project(":common-one")
+    implementation project(":common-two")
+    implementation "io.quarkus:quarkus-scheduler"
+    implementation "io.quarkus:quarkus-rest-client"
+
+}
